@@ -19,6 +19,7 @@ main{
     width: 100%;
 }
 main div{
+    background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
     border: 2px solid white;
     padding: 20px;
@@ -28,19 +29,68 @@ main div h3{
     position: relative;
     top: 0;
 }
+.aut-container ul{
+    position: relative;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+.aut-container li{
+    background-color: #63e657;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+.q0{
+    position: relative;
+}
+.q0::before{
+    position: absolute;
+    left: -20px;
+    content: ">";
+    font-weight: bold;
+    font-size: x-large;
+}
+.q4{
+    position: relative;
+}
+.q4::after{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "";
+    display: block;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid;
+}
 .sim-container form{
     display: flex;
     flex-direction: column;
     padding: 40px;
 }
 button{
-    border-radius: 10px;
+    background-color: #00ccff;
+    border-radius: 50px;
     border: 1px solid;
     padding: 10px;
     margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+button:hover{
+    background-color: #09a2c9;
 }
 input{
-    border-radius: 10px;
+    border-radius: 50px;
     border: 1px solid;
     padding: 10px;
     margin-bottom: 20px;
