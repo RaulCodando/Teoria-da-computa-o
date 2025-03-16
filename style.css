@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #456670, #34926b);
+}
+header{
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+main{
+    display: flex;
+    width: 100%;
+}
+main div{
+    text-align: center;
+    border: 2px solid white;
+    padding: 20px;
+    width: 50%;
+}
+main div h3{
+    position: relative;
+    top: 0;
+}
+.sim-container form{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+button{
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+input{
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 20px;
+}
